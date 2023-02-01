@@ -1,0 +1,26 @@
+body {
+    /*Estilo del formulario*/
+    background: rgb(251, 244, 244); /*color de fondo */
+    border: 110px solid rgb(52, 51, 52); /*borde*/
+    font-size: 16px; /*tamaño letra*/
+    font-family: "sans-serif", sans-serif; /*fuente*/
+    color: rgb(0, 0, 0); /*color texto*/
+    text-align: center; /*formulario texto centrado*/
+  }
+
+  /*desaparezca la barra de aumentar o disminur números*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+header{
+color: rgb(18, 18, 41);
+background-color: rgb(114, 114, 112);
+border: 40px solid rgb(151, 103, 45);
+}
+
+
