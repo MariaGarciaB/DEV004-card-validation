@@ -1,53 +1,52 @@
 const validator = {
-
-  isValid: function(cardnumber) {// recibes el parametro
-    console.log(cardnumber)
-    const numberValid = cardnumber.split("");//separar los números en string individuales
-    console.log(numberValid)
-    const inverse = numberValid.reverse();//array en orden inverso
-    console.log(inverse)
-    const posicionesPares = [];
-    const posicionesImpares = [];
-    let a = 0;
-    let b = 0;
-    let c = 0;
-    for (let i = 0; i < inverse.length; i++) {//separar por posiciones
-      const array = inverse[i];
-      console.log(array)
-      if (i % 2 === 1){//selecciona pocisiones pares (operador modulo)
-        const multiplication = + (array*2);//multiplicar por 2 el valor de posiciones pares
-        console.log(multiplication)
-        posicionesPares.push(array);//valor pocisiones pares en array
-        if(multiplication >9){//seleccionar números mayores a 9
-          const dosDigitos = multiplication.toString().split("");//convertir a string mi true en mayores de 9 (suma pares)
-          const sumaDosDigitos = (Number(dosDigitos[0]) + Number(dosDigitos[1]));//Sumar ambos dígitos
-          console.log (dosDigitos)
-          console.log (sumaDosDigitos)
-          a = a + sumaDosDigitos;//sumar el resultado de todos los "sumaDosDigitos" se declara una variable fuera del for =0 para que comience a partir de ese número
-        }else{
-          b = b + multiplication;//suma pocisiones pares sin multiplicar
-        }
-      }
-      if(i % 2 === 0){//selecciona pocisiones impares
-        c = c + (Number(array));
-        posicionesImpares.push(array);//valor pocisiones impares en array
-      }
-    }
-    const sumaTotal = (a + b + c);//Suma total
-    if(sumaTotal %10 === 0){//si mi residual es =0, me da una tarjeta valida
-      alert ("Tarjeta Valida")
-    } else{
-      alert ("Tú tarjeta NO es valida. Por favor, ingresa nuevamente tu Card Number")
-    }
-    console.log(posicionesImpares)
-    console.log(posicionesPares)
-    console.log (c)//suma de posiciones impares
-    console.log (b)
-    console.log (a)
-    console.log (sumaTotal)//suma de todos los digitos agregando el resultado anterior
-  }
+  isValid,
+  maskify,
 };
+function isValid(cardnumber) {// recibes el parametro
+  const numberValid = cardnumber.split("");//separar los números en string individuales
+  const inverse = numberValid.reverse();//array en orden inverso
+  const posicionesPares = [];
+  const posicionesImpares = [];
+  let sumA = 0;
+  let sumB = 0;
+  let sumC = 0;
+  for (let i = 0; i < inverse.length; i++) {//separar por posiciones
+    const array = inverse[i];
+    if (i % 2 === 1){//selecciona pocisiones pares (operador modulo)
+      const multiplication = + (array*2);//multiplicar por 2 el valor de posiciones pares
+      posicionesPares.push(array);//valor pocisiones pares en array
+      if(multiplication >9){//seleccionar números mayores a 9
+        const dosDigitos = multiplication.toString().split("");//convertir a string mi true en mayores de 9 (suma pares)
+        const sumaDosDigitos = (Number(dosDigitos[0]) + Number(dosDigitos[1]));//Sumar ambos dígitos
+        sumA = sumA + sumaDosDigitos;//sumar el resultado de todos los "sumaDosDigitos" se declara una variable fuera del for =0 para que comience a partir de ese número
+      }else{
+        sumB = sumB + multiplication;//suma pocisiones pares sin multiplicar
+      }
+    }
+    if(i % 2 === 0){//selecciona pocisiones impares
+      sumC = sumC + (Number(array));
+      posicionesImpares.push(array);//valor pocisiones impares en array
+    }
+  }
+  const sumaTotal = (sumA + sumB + sumC);//Suma total
+  console.log(sumaTotal)
+  if(sumaTotal %10 === 0){//si mi residual es =0, me da una tarjeta valida
+    return true
+  } else{
+    return false
+  }
+}
 
+
+function maskify(numero){
+  const numerosVisibles = numero.slice(-4);
+  console.log(numerosVisibles)
+  let numeral = "";
+  for (let index = 0; index <numero.length; index++) {
+    numeral = numeral + "#"
+  }
+  console.log (numeral)
+}
 export default validator;
 
 //no va document, alert... aqui meto mis funciones que van a dar un valor
