@@ -8,6 +8,10 @@ body {
     text-align: center; /*formulario texto centrado*/
   }
 
+#IntroduceMaskify{
+display: none;
+}
+
   /*desaparezca la barra de aumentar o disminur números*/
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {

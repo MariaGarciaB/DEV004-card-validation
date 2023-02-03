@@ -1,6 +1,6 @@
 const validator = {
-  isValid,
   maskify,
+  isValid,
 };
 function isValid(cardnumber) {// recibes el parametro
   const numberValid = cardnumber.split("");//separar los números en string individuales
@@ -29,7 +29,6 @@ function isValid(cardnumber) {// recibes el parametro
     }
   }
   const sumaTotal = (sumA + sumB + sumC);//Suma total
-  console.log(sumaTotal)
   if(sumaTotal %10 === 0){//si mi residual es =0, me da una tarjeta valida
     return true
   } else{
@@ -40,12 +39,13 @@ function isValid(cardnumber) {// recibes el parametro
 
 function maskify(numero){
   const numerosVisibles = numero.slice(-4);
-  console.log(numerosVisibles)
   let numeral = "";
   for (let index = 0; index <numero.length; index++) {
     numeral = numeral + "#"
   }
-  console.log (numeral)
+  const forNumeral = numeral.slice(0, numeral.length -4);
+  const resultadoNumeral = forNumeral + numerosVisibles;
+  return resultadoNumeral;
 }
 export default validator;
 

@@ -1,15 +1,18 @@
 import validator from './validator.js';
 
+const button = document.getElementById("btnValidate");
+button.addEventListener("click", validate);
+
 function validate() {
-  const cardnumber = document.getElementById("cardNumber").value;//por medio del btnValidate, se captura el valor en caja vacía
+  const cardnumber = document.getElementById("cardNumber").value;
   if (cardnumber === "") {
-    alert("Ingresa los números de tu tarjeta") //Marcar un error cuando no ingresa texto (Operadores lógicos)
+    alert("Ingresa los números de tu tarjeta")
   } else {
-    validator.isValid(cardnumber) // enviamos argumento a nueva funcion
+    validator.isValid(cardnumber)
+    document.getElementById("introduceNumber").style.display = "none"
+    document.getElementById("introduceMaskify").style.display = "block"
   }
-  //esta esla invocaciónn de la funcion
   const result = validator.isValid(cardnumber);
-  console.log(result)
   if (result === true){
     alert ("Gracias, Tu tarjeta es válida")
   }else{
@@ -17,15 +20,12 @@ function validate() {
   }
 }
 
-const button = document.getElementById("btnValidate");// Llamar al boton
-button.addEventListener("click", validate);//Manejador de eventos, añade funcionalidad
+function maskify (){
+  const result = validator.maskify(document.getElementById("cardNumber").value);
+  document.getElementById("cardNumber").value = ""
+  document.getElementById("resultMichi").textContent = result
+  //return result
+}
+button.addEventListener("click", maskify);
 
-
-
-console.log(validator);
-
-
-//invocar una función...a compaño funcion con parentesis
-// hasta este momento aún no hacemos algo
-//verificar los valores despues de dar click boton
-//buscar, alertas, interacción, actualizar, leer cosas en un div, mensajes a ususaros, ergc.
+//console.log(validator);
