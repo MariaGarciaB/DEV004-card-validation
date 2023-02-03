@@ -6,17 +6,16 @@ button.addEventListener("click", validate);
 function validate() {
   const cardnumber = document.getElementById("cardNumber").value;
   if (cardnumber === "") {
-    alert("Ingresa los números de tu tarjeta")
-  } else {
-    validator.isValid(cardnumber)
-    document.getElementById("introduceNumber").style.display = "none"
-    document.getElementById("introduceMaskify").style.display = "block"
+    document.getElementById("mensaje").textContent = "Ingresa tu número de tarjeta"
+    return
   }
   const result = validator.isValid(cardnumber);
   if (result === true){
-    alert ("Gracias, Tu tarjeta es válida")
+    document.getElementById("mensaje").textContent = "Gracias, tu tarjeta es válida"
+    //document.getElementById("introduceNumber").style.display = "none"
+    document.getElementById("introduceMaskify").style.display = "block"
   }else{
-    alert ("Tu tarjeta es inválida. Intentalo nuevamente")
+    document.getElementById("mensaje").textContent = "Tu tarjeta es inválida, intentalo nuevamente"
   }
 }
 
@@ -28,4 +27,10 @@ function maskify (){
 }
 button.addEventListener("click", maskify);
 
-//console.log(validator);
+//console.log(validator);|
+
+
+
+
+
+//  numero ejemplo tarjeta valida 4083952015263

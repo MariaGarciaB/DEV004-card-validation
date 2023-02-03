@@ -49,4 +49,3 @@ function maskify(numero){
 }
 export default validator;
 
-//no va document, alert... aqui meto mis funciones que van a dar un valor
