@@ -1,6 +1,6 @@
 const validator = {
-  maskify,
   isValid,
+  maskify,
 };
 function isValid(cardnumber) {// recibes el parametro
   const numberValid = cardnumber.split("");//separar los números en string individuales

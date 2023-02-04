@@ -11,7 +11,7 @@ function validate() {
   }
   const result = validator.isValid(cardnumber);
   if (result === true){
-    document.getElementById("mensaje").textContent = "Gracias, tu tarjeta es válida"
+    document.getElementById("mensaje").textContent = "Gracias"
     //document.getElementById("introduceNumber").style.display = "none"
     document.getElementById("introduceMaskify").style.display = "block"
   }else{
