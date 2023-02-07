@@ -19,15 +19,45 @@ header{
    text-align: cen; /*formulario texto centrado*/
 }
 
+nav ul li {
+  float: left;
+  list-style: none;
+  font-size: 12px;
+  margin: 10px;
+}
+
+nav ul li2 {
+  float: right;
+  list-style: none;
+  font-size: 12px;
+  margin: 10px;
+}
+
 body {
     /*Estilo del formulario*/
     background: rgb(251, 244, 244); /*color de fondo */
-    border: outset 110px, solid, rgb(52, 51, 52); /*borde*/
+    border: outset 110px, solid, rgb(78, 76, 78); /*borde*/
     font-size: 16px; /*tamaño letra*/
     font-family: "sans-serif", sans-serif; /*fuente*/
     color: rgb(0, 0, 0); /*color texto*/
     text-align: center; /*formulario texto centrado*/
   }
+
+.container{
+  position: absolute; left: 100px;
+  background-color: rgb(88, 87, 88);
+  opacity: 0.7;
+  border: solid, rgb(52, 51, 52);
+  border-radius: 10px;
+  position: absolute; left: 100px;
+  top: 400px;
+  width: 40%;
+}
+
+#btnValidate{
+  border-radius: 5px;
+  border: 0px;
+}
 
 #introduceMaskify{
     display: none;
