@@ -19,12 +19,12 @@ Es por este motivo que te consideramos un usuario, más que un cliente. Nos gust
 
 En este sitio cualquier persona mayor de edad, que cuente con un método de pago (Tarjeta de crédito ó débito), válido y vigente. Realice una cuenta (con datos de contacto) para agregar a su shopping bag los productos que desee adquirir. Lo que se muestra en en la página, es la parte previa al final de la compra en donde se confirma la tarjeta con la cual se realizará la compra:  
 
-###### 1. Se ingresa un número de tarjeta válido, previamente registrado
-##### 2. Se confirma los que se ha introducido la tarjeta con tal terminación
-##### 3. Se ser la terminación correcta, se presiona el botón ok.
-##### 4. Finalmente aparece en pantalla un mensaje de compra exitosa.
-##### 5. Se reciben los artículos en el domicilio de la cuenta.
-##### 6. LISTO!!! ahora realmente es tu Bedroom.
+**1. Se ingresa un número de tarjeta válido, previamente registrado**
+**2. Se confirma los que se ha introducido la tarjeta con tal terminación**
+**3. Se ser la terminación correcta, se presiona el botón ok.**
+**4. Finalmente aparece en pantalla un mensaje de compra exitosa.**
+**5. Se reciben los artículos en el domicilio de la cuenta.**
+**6. LISTO!!! ahora realmente es tu Bedroom.**
 
 ### Karolo´s Bedroom 
 #### Febrero 2023
@@ -32,7 +32,7 @@ En este sitio cualquier persona mayor de edad, que cuente con un método de pago
 ***
 
 
-## Base de Proyecto: Criterios de aceptación del proyecto
+### Base de Proyecto: Criterios de aceptación del proyecto
 
 Estos son los requisitos que debe cumplir tu trabajo para que consideremos que has completado lo mínimamemnte indispensable para esta etapa de tu aprendizaje.
 
@@ -64,21 +64,21 @@ Estas preguntas sirven como guía:
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
 
-## Objetivos de aprendizaje generales
+### Objetivos de aprendizaje generales
 
-### HTML
+#### HTML
 
 - [ ] **Uso de HTML semántico**
 
 
-### CSS
+#### CSS
 
 - [ ] **Uso de selectores de CSS**
 
 - [ ] **Modelo de caja (box model): borde, margen, padding**
 
 
-### Web APIs
+#### Web APIs
 
 - [ ] **Uso de selectores del DOM*
 
@@ -87,7 +87,7 @@ Estas preguntas sirven como guía:
 - [ ] **Manipulación dinámica del DOM**
 
 
-### JavaScript
+#### JavaScript
 
 - [ ] **Tipos de datos primitivos**
 
@@ -110,7 +110,7 @@ Estas preguntas sirven como guía:
 - [ ] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
 
 
-### Control de Versiones (Git y GitHub)
+#### Control de Versiones (Git y GitHub)
 
 - [ ] **Git: Instalación y configuración**
 
@@ -121,12 +121,12 @@ Estas preguntas sirven como guía:
 - [ ] **GitHub: Despliegue con GitHub Pages**
 
 
-### Centrado en el usuario
+#### Centrado en el usuario
 
 - [ ] **Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro**
 
 
-### Diseño de producto
+#### Diseño de producto
 
 - [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
 
