@@ -1,4 +1,4 @@
-# Carta al Usuario
+## Carta al Usuario
 
 Nuestro dormitorio ha pasado a ser una parte primordial del hogar, es el espacio en donde realizamos gran cantidad de nuestras tareas diarias; el trabajo y la escuela remota nos han llevado a tomar nuestra habitación como un espacio que proporciona ese sentido de privacidad, generador de mil sensaciones y emociones. Con esto en mente Karolo’s Bedroom ofrece un espacio especializado en propuestas, decoración y cientos de productos para lograr ese estilo y ambiente que sólo tú puedes formar.
 
@@ -19,15 +19,15 @@ Es por este motivo que te consideramos un usuario, más que un cliente. Nos gust
 
 En este sitio cualquier persona mayor de edad, que cuente con un método de pago (Tarjeta de crédito ó débito), válido y vigente. Realice una cuenta (con datos de contacto) para agregar a su shopping bag los productos que desee adquirir. Lo que se muestra en en la página, es la parte previa al final de la compra en donde se confirma la tarjeta con la cual se realizará la compra:  
 
-### 1. Se ingresa un número de tarjeta válido, previamente registrado
-### 2. Se confirma los que se ha introducido la tarjeta con tal terminación
-### 3. Se ser la terminación correcta, se presiona el botón ok.
-### 4. Finalmente aparece en pantalla un mensaje de compra exitosa.
-### 5. Se reciben los artículos en el domicilio de la cuenta.
-### 6. LISTO!!! ahora realmente es tu Bedroom.
+###### 1. Se ingresa un número de tarjeta válido, previamente registrado
+##### 2. Se confirma los que se ha introducido la tarjeta con tal terminación
+##### 3. Se ser la terminación correcta, se presiona el botón ok.
+##### 4. Finalmente aparece en pantalla un mensaje de compra exitosa.
+##### 5. Se reciben los artículos en el domicilio de la cuenta.
+##### 6. LISTO!!! ahora realmente es tu Bedroom.
 
-# Karolo´s Bedroom 
-## Febrero 2023
+### Karolo´s Bedroom 
+#### Febrero 2023
 
 ***
 
