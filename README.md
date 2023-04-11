@@ -19,17 +19,12 @@ Es por este motivo que te consideramos un usuario, más que un cliente. Nos gust
 
 En este sitio cualquier persona mayor de edad, que cuente con un método de pago (Tarjeta de crédito ó débito), válido y vigente. Realice una cuenta (con datos de contacto) para agregar a su shopping bag los productos que desee adquirir. Lo que se muestra en en la página, es la parte previa al final de la compra en donde se confirma la tarjeta con la cual se realizará la compra:  
 
-**1. Se ingresa un número de tarjeta válido, previamente registrado**
-
-**2. Se confirma los que se ha introducido la tarjeta con tal terminación**
-
-**3. Se ser la terminación correcta, se presiona el botón ok.**
-
-**4. Finalmente aparece en pantalla un mensaje de compra exitosa.**
-
-**5. Se reciben los artículos en el domicilio de la cuenta.**
-
-**6. LISTO!!! ahora realmente es tu Bedroom.**
+* Se ingresa un número de tarjeta válido, previamente registrado
+* Se confirma los que se ha introducido la tarjeta con tal terminación
+* Se ser la terminación correcta, se presiona el botón ok.
+* Finalmente aparece en pantalla un mensaje de compra exitosa.
+* Se reciben los artículos en el domicilio de la cuenta.
+* LISTO!!! ahora realmente es tu Bedroom.
 
 ### Karolo´s Bedroom 
 #### Febrero 2023
