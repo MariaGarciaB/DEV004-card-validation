@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Validación Tarjeta de Crédito</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -12,35 +12,33 @@
     </header>
     <nav>
       <ul>
-      <li>
-        Iniciar Sesión
-      </li>
-      <li2>
-        Shopping Bag (0)
-      </li2>
+        <li><a href="">Iniciar Sesión</a></li>
+        <li><a href="">Shopping Bag (0)</a></li>
       </ul>
-    </nav><br><br><br>
+    </nav>
 
-    <div class="container">
-      <section id="introduceNumber">
-        <br><br><label for="cardnumber"> Card Number</label>
-      <input type="number" id="cardNumber"/>
-            <button id="btnValidate">Validar</button><br><br>
-            <p id="mensaje"></p>
+    <img
+      id="imgBedRoom"
+      src="https://images.hola.com/imagenes/decoracion/20220513209372/mesitas-de-noche-diferentes-para-decoracion-dormitorios-nu/1-84-994/combinar-mesitas-noche-diferemntes-decoracion-dormitorio-hola-05-a.jpg"
+      alt="Decoración de habitaciónn en tonos grises y beige"
+    />
+
+    <main class="container">
+      <section id="target">
+        <section id="introduceNumber">
+          <label for="cardnumber"> Card Number</label>
+          <input type="number" id="cardNumber" />
+          <button id="btnValidate">Validar</button>
+          <p id="mensaje"></p>
+        </section>
+        <section id="introduceMaskify">
+          <p>Ingresaste tu tarjeta con terminación</p>
+          <h2 id="resultMichi"></h2>
+        </section>
       </section>
+    </main>
 
-      <section id="introduceMaskify">
-        <p>Ingresaste tu tarjeta con terminación</p>
-        <h2 id="resultMichi"></h2>
-      </section>
-    </div>
-
-    <br><img id="imgBedRoom" src="https://images.hola.com/imagenes/decoracion/20220513209372/mesitas-de-noche-diferentes-para-decoracion-dormitorios-nu/1-84-994/combinar-mesitas-noche-diferemntes-decoracion-dormitorio-hola-05-a.jpg" style="width: 80%; height: 80%;" object-fit: cover;>
-
-
-    <footer>
-      Maria García &copy; 2023
-    </footer>
+    <footer>Maria García &copy; 2023</footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
