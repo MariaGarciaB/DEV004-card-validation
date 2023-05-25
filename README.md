@@ -34,7 +34,7 @@ En este sitio cualquier persona mayor de edad, que cuente con un método de pago
 
 ### Base de Proyecto: Criterios de aceptación del proyecto
 
-Estos son los requisitos que debe cumplir tu trabajo para que consideremos que has completado lo mínimamemnte indispensable para esta etapa de tu aprendizaje.
+Estos son los requisitos que debía cumplir mi proyecto para que consideremos que has completado para esta etapa de tu aprendizaje.
 
 **1. La interfaz de tu aplicación debe:**
 
