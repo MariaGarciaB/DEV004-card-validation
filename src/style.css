@@ -1,22 +1,27 @@
 * {
-  margin: 0px;
+  margin: 0;
 }
 
 body{
+  height: 100vh;
   width: 100%;
-  height: 100%;
+  background-image: url(https://lago-cdn.thron.com/delivery/public/image/lago/c1d8093d-1b9c-45d4-8693-798e339ca22e/sqVrcnw/std/1024x577/muebles-de-diseno-habitacion-infantil-or-kidsandyoung-orlago.webp?cropx=4&cropy=24.857768052516&cropw=85.25&croph=67.221006564551&quality=70);
+  background-size: cover;
+  
 }
 
 header {
+  width: 100%;
   background-color: rgb(151, 103, 45);
   padding: 2em 3em 2em;
   font-size: 18px;
-  font-family: "sans-serif";
+  font-family: "Lato";
   color: rgb(253, 250, 250);
   text-align: left;
 }
 
 #pageName {
+  opacity: 100%;
   background-color: rgb(151, 103, 45);
   color: rgb(253, 250, 250);
   border: 7px solid rgb(253, 250, 250);
@@ -27,68 +32,67 @@ header {
   text-align: cen;
 }
 
-nav {
-  background: #6e770d;
-  opacity: 0.7;
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-li {
-  list-style: none;
-  display: inline-block;
-}
-
-li a {
-  padding: 1em 4em 1em 1em;
-  width: 100%;
-  text-decoration: none;
-  font-size: 13px;
-  font-family: "sans-serif";
-  color: rgb(253, 250, 250);
-  display: block;
-}
-
-img {
-  width: 100%;
+#target {
+  margin: 70px;
   height: 100%;
-  position: static;
-  overflow: hidden;
-  object-fit: cover;
-}
-
-.container {
-  padding: 10% 3%;
-  background-color: rgb(88, 87, 88);
+  width: 500px;
+  padding: 5%;
+  background: #0F2027; 
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 70px 10px;
   opacity: 0.8;
-  border: solid, rgb(52, 51, 52);
-  border-radius: 10px;
-  position: absolute;
-  right: 10%;
-  top: 70%;
-  font-size: 16px;
-  font-family: "sans-serif";
+  font-size: 23px;
+  font-family: "Lato";
   color: rgb(253, 250, 250);
   text-align: center;
-  box-shadow: 0px 0px 25px #222;
-  backdrop-filter: blur 50px;
 }
 
-#introdiceNumber {
-  background-color: rgb(88, 87, 88);
-  opacity: 0.7;
-  border: solid, rgb(52, 51, 52);
-  border-radius: 10px;
-  font-size: 16px;
-  font-family: "sans-serif";
-  color: rgb(253, 250, 250);
+input{
+  font-size: 20px;
+  text-align: center;
+  color: #0F2027;
+  border-radius: 5px;
+  width: 100%;
 }
+
 
 #btnValidate {
+  background: #605C3C;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-family: 'Lato';
+  color: #fff;
+  border: none;
   border-radius: 5px;
-  border: 0px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#cardNumber {
+  padding: 5px;
+  width: 100%; 
+}
+
+#mensaje {
+  font-weight: bold;
+  width: 100%;
 }
 
 #introduceMaskify {
   display: none;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #0F2027;
+  border-radius: 5px;
 }
 
 /*desaparezca la barra de aumentar o disminur números*/
@@ -102,11 +106,38 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-footer {
-  background-color: rgba(75, 75, 75, 0.63);
-  padding: 1em 2em 1em;
-  font-size: 11px;
-  font-family: "sans-serif";
-  color: rgb(253, 250, 250);
-  text-align: center;
+@media screen and (max-width: 768px) {
+  header {
+    padding: 1em;
+  }
+
+  #pageName {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 90%;
+  }
 }
+
+@media screen and (max-width: 480px) {
+  header {
+    padding: 0.5em;
+  }
+
+  #pageName {
+    font-size: 12px;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 10px;
+  }
+
+  input,
+  #btnValidate {
+    font-size: 16px;
+    padding: 8px;
+  }
+}
+

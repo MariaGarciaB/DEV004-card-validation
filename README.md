@@ -4,17 +4,6 @@ Nuestro dormitorio ha pasado a ser una parte primordial del hogar, es el espacio
 
 Karolo’s Bedroom pretende ser más que una tienda online, la finalidad es que tu misma búsqueda y la segmentación de productos basada en: departamentos, paletas de colores, productos o estilos; Aporten ideas a tu plan  de decoración y logres una explosión creativa basada en lo que TÚ deseas.
 
-Tu búsqueda puede ir basada en: 
-
-* Estilos
-ej: nórdico, contemporáneo.
-* Paletas de colores 
-ej: grises, full color, cálidos.
-* Departamentos
-ej: juvenil, bebé.
-* Categoría de produtos
-ej: lámparas, alfombras, cuadros, repisas.
-
 Es por este motivo que te consideramos un usuario, más que un cliente. Nos gustaría que Karolo´s Bedroom sea una experiencia para todo aquel que tenga la finalidad de personalizar este espacio.
 
 En este sitio cualquier persona mayor de edad, que cuente con un método de pago (Tarjeta de crédito ó débito), válido y vigente. Realice una cuenta (con datos de contacto) para agregar a su shopping bag los productos que desee adquirir. Lo que se muestra en en la página, es la parte previa al final de la compra en donde se confirma la tarjeta con la cual se realizará la compra:  
